@@ -11,12 +11,12 @@ function Cricket() {
                         myData.map((value) => {
                             return (
                                 <>
-                                    <div className='col-md-3 my-3'>
-                                        <div className="card" style={{ width: "18rem" }}>
+                                    <div className='col col-xl-3 my-3'>
+                                        <div className="card card-hover" style={{ width: "17rem" }}>
                                             <img src={value.photo} className="card-img-top" alt="..." />
                                             <div className="card-body">
-                                                <h3 className="card-title text-center text-primary fw-bolder"> {value.name}</h3>
-                                                <h5 className="card-title text-dark"> Born: {value.born}</h5>
+                                                <h3 className="card-title text-center text-primary fw-bold"> {value.name}</h3>
+                                                <h6 className="card-title text-dark text-center fw-bold"> Born: {value.born}</h6>
                                                 <p className="card-text">{value.about}</p>
                                                 {/* <a href="#" className="btn btn-primary">Search More</a> */}
                                             </div>
